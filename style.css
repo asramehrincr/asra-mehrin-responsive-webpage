@@ -1,0 +1,290 @@
+.home-page {
+    background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?cs=srgb&dl=pexels-stywo-1054218.jpg&fm=jpg");
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand h1 {
+    color: yellow;
+    margin-left: 50px;
+}
+
+.navbar-brand span {
+    color: black;
+    font-size: 20px;
+
+}
+
+.navbar-nav {
+    justify-content: end;
+}
+
+.package-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.body-tag {
+    color: white;
+
+    font-family: "Cedarville Cursive", cursive;
+}
+
+.heading-body {
+    /* background-color: pink; */
+    margin-left: 900px;
+    margin-top: 60px;
+}
+
+#bold {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tour-packages h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    margin-left: 10px;
+
+}
+
+.card:hover {
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.booknow {
+    background-color: rgb(168, 168, 194);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.more-pack {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.morepackages {
+    margin-top: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#images {
+    margin: 10px 50px 0px 50px;
+
+}
+
+#images h1 {
+    text-align: center;
+}
+
+.vedio-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+
+
+}
+
+.kerala-image {
+    width: 500px;
+    height: 200px;
+
+}
+
+.north-items {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#north-content h1 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.card-n {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#premium-fetures h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#premium-fetures h2 {
+    color: pink;
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+}
+
+.card-p {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: grey;
+}
+
+.p-image {
+    border-radius: 200px;
+}
+
+#cutomer-love {
+    margin-top: 50px;
+    background-color: rgb(255, 250, 250);
+    padding: 20px;
+}
+
+.icon-head {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.cust-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 250px;
+}
+
+.icon-head i {
+    color: yellow;
+    font-size: 35px;
+}
+
+.icon-head p {
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 30px;
+
+}
+
+.carousel-caption-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+.carousel-caption-center h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption-center p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-caption-center .btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.carousel-caption-center .btn:hover {
+    background-color: darkgreen;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.card p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.learn {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.learn:hover {
+    color: #0056b3;
+}
+
+.center-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 250px 0px 0px 700px;
+}
+
+.center-button:hover {
+    background-color: rgb(33, 27, 105);
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+
+@media (max-width: 480px) {
+    .heading-body {
+        /* background-color: pink; */
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .heading-body {
+        /* background-color: pink; */
+        margin-left: 300px;
+        margin-top: 60px;
+    }
+}
